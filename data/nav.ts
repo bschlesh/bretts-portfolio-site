@@ -11,4 +11,8 @@ export const navItems = [
     name: "Technologies",
     link: "#tech-stack",
   },
+  {
+    name: "Hobbies",
+    link: "#hobbies",
+  },
 ];

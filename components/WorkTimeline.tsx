@@ -18,14 +18,14 @@ export const WorkTimeline = () => {
             time by 40%
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Developed a $100M change management platform leveraging TypeScript,
-            Next.js, and Azure DevOps, delivering 10+ bespoke components and
-            driving a 20% increase in client engagement
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
             Engineered a custom flagging system that dynamically controlled page
             visibility based on client-specific viewing requirements, improving
             user experience by 25%
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+            Developed a $100M change management platform leveraging TypeScript,
+            Next.js, and Azure DevOps, delivering 10+ bespoke components and
+            driving a 20% increase in client engagement
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
             Improved platform reliability by 30% through rigorous testing
