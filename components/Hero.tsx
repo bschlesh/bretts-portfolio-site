@@ -1,3 +1,4 @@
+import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 import { Background } from "./ui/Background";
 
 export const Hero = () => {
@@ -8,8 +9,33 @@ export const Hero = () => {
         I&apos;m a full stack developer based in NYC.
       </h2>
       <h4 className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center">
-        I hope you&apos;ll stick around and check out some of my work.
+        I hope you&apos;ll stick around and check out some of my work. You can
+        also find me on LinkedIn or GitHub.
       </h4>
+      <div className="flex flex-row items-center justify-center mt-2 gap-x-3">
+        <a
+          href="https://www.linkedin.com/in/brett-schlesinger/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-[3px] relative"
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-400 rounded-lg" />
+          <div className="px-4 py-1 flex flex-row gap-2 md:px-4 md:py-2 bg-black rounded-[6px] relative group transition duration-200 text-white text-sm hover:bg-transparent">
+            <IconBrandLinkedin size={18} />
+          </div>
+        </a>
+        <a
+          href="https://github.com/bschlesh?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-[3px] relative"
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-400 rounded-lg" />
+          <div className="px-4 py-1 flex flex-row gap-2 md:px-4 md:py-2 bg-black rounded-[6px] relative group transition duration-200 text-white text-sm hover:bg-transparent">
+            <IconBrandGithub size={18} />
+          </div>
+        </a>
+      </div>
     </Background>
   );
 };
