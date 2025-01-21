@@ -15,7 +15,7 @@ export default function Home() {
       <Nav />
       <WorkTimeline />
       <TechStack />
-      <h2 className="mx-8 text-xl md:text-3xl lg:text-5xl font-bold text-left text-black relative z-2 font-sans">
+      <h2 className="mx-8 text-xl md:text-3xl lg:text-5xl font-bold text-left dark:text-white text-black relative z-2 font-sans">
         Here&apos;s what I like to do in my <ColourfulText text="free time" />:
       </h2>
       <div
