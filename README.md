@@ -5,7 +5,6 @@ Welcome to the repository for my personal website! This site showcases my profes
 ## 🚀 Features
 
 - **Dynamic Resume**: Showcases professional experiences and achievements.
-- **Portfolio**: Highlights projects with detailed descriptions and links.
 - **Tech Stack**: Displays core skills and tools with descriptions and resources.
 - **Modern Design**: Built with **Aceternity components** and styled using **Tailwind CSS**.
 - **Engaging Animations**: Smooth transitions and interactive effects with **Framer Motion**.
