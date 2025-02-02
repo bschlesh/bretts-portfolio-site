@@ -4,7 +4,6 @@ import { Hero } from "@/components/Hero";
 import { Hobby } from "@/components/Hobby";
 import { Nav } from "@/components/Nav";
 import { TechStack } from "@/components/TechStack";
-import { ColourfulText } from "@/components/ui/ColorText";
 import { WorkTimeline } from "@/components/WorkTimeline";
 import { hobbies } from "@/data/hobbies";
 
@@ -16,10 +15,11 @@ export default function Home() {
       <WorkTimeline />
       <TechStack />
       <div id="hobbies">
-        <h2 className="mx-8 text-xl md:text-3xl lg:text-5xl font-bold text-left dark:text-white text-black relative z-2 font-sans">
-          Here&apos;s what I like to do in my <ColourfulText text="free time" />
-          :
-        </h2>
+        <div className="flex items-start justify-center w-full flex-col px-8">
+          <h2 className="text-5xl font-bold text-center dark:text-white text-black relative z-2 font-sans">
+            This is what I like to do in my free time.
+          </h2>
+        </div>
         <div className="flex flex-col sm:flex-row gap-x-2 px-8 items-center justify-center">
           {hobbies.map((hobby, index) => (
             <div key={index} className="w-full sm:w-1/3">

@@ -1,4 +1,3 @@
-import { ColourfulText } from "./ui/ColorText";
 import { Timeline } from "./ui/Timeline";
 
 export const WorkTimeline = () => {
@@ -65,10 +64,9 @@ export const WorkTimeline = () => {
 
   return (
     <>
-      <div className="pb-10 px-8" id="work-timeline">
-        <h2 className="text-xl md:text-3xl lg:text-5xl font-bold text-left dark:text-white text-black relative z-2 font-sans">
-          This is what I&apos;ve been doing for work at{" "}
-          <ColourfulText text="Accenture" />:
+      <div className="pb-10 px-12" id="work-timeline">
+        <h2 className="text-5xl font-bold text-center dark:text-white text-black relative z-2 font-sans">
+          This is what I&apos;ve been doing for work.
         </h2>
         <Timeline data={workData} />
       </div>
